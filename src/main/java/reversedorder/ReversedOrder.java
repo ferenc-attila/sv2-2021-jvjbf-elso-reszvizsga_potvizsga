@@ -1,7 +1,7 @@
 package reversedorder;
 
 public class ReversedOrder {
-    String getWordsInReversedOrder(String[] words) {
+    public String getWordsInReversedOrder(String[] words) {
         StringBuilder reverse = new StringBuilder();
         for (int i = words.length - 1; i >= 0; i--) {
             if (i == 0) {
