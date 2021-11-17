@@ -13,5 +13,4 @@ class SumOfDigitsTest {
         assertEquals(21, sum.getSumOfDigits(123456));
         assertNotEquals(11, sum.getSumOfDigits(12345));
     }
-
 }
