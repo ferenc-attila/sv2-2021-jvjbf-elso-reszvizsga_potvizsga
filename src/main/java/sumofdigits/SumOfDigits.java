@@ -10,4 +10,8 @@ public class SumOfDigits {
         }
         return sumOfDigits;
     }
+
+    private int returnNumber(int number) {
+        return number;
+    }
 }
